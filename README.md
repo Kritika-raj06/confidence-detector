@@ -44,3 +44,68 @@ The system predicts whether the confidence level is **Low, Medium, or High** and
 ---
 
 ## 📂 Project Structure
+```confidence-detector/
+├── app.py
+├── text_model.py
+├── speech_model.py
+├── utils.py
+├── generate_audio.py
+├── requirements.txt
+└── data/
+├── text_data.csv
+└── audio/
+├── high_1.wav
+├── medium_1.wav
+└── low_1.wav```
+
+---
+
+## ▶️ How to Run the Project Locally
+
+### 1️⃣ Clone or Download the Repository
+```bash
+git clone https://github.com/your-username/confidence-detector.git
+cd confidence-detector
+OR download ZIP and extract.
+2️⃣ Install Dependencies
+pip install -r requirements.txt
+
+3️⃣ Run the Application
+streamlit run app.py
+
+4️⃣ Use the App
+
+Enter a text response
+
+Upload a .wav audio file (optional)
+
+Click Analyze Confidence
+
+View confidence level, score, and feedback
+
+📌 Example Use Cases
+
+Interview practice
+
+Public speaking improvement
+
+Presentation confidence analysis
+
+Student communication skill assessment
+
+🔮 Future Improvements
+
+Real-time microphone input
+
+Larger and more diverse training dataset
+
+Deep learning models for speech analysis
+
+Online deployment for live demo access
+
+👩‍💻 Author
+
+Kriti
+B.Tech CSE (AI/ML)
+
+⭐ If you find this project useful, feel free to star the repository!
