@@ -1,5 +1,9 @@
 # 🎤 Confidence Detector (Text + Voice)
 
+## 🌐 Live Demo
+👉 https://confidence-detector-ml.streamlit.app
+
+
 A Machine Learning–based application that detects a person’s **confidence level** by analyzing both **text responses** and **speech (audio)**.  
 The system predicts whether the confidence level is **Low, Medium, or High** and provides **actionable feedback** to help improve communication skills.
 
